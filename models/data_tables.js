@@ -1,8 +1,4 @@
 var mongoose = require("mongoose");
-
-var Promise = require("bluebird");
-Promise.promisifyAll(mongoose);
-
 var Schema = mongoose.Schema
     , ObjectId = Schema.ObjectId;
 
