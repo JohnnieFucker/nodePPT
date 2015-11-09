@@ -28,10 +28,97 @@ usemathjax: yes
 * 既往病史：<%=user_list.block_183.excel_content_list.item_498.value.value%>
 
 [slide]
-## 外观像
+## 外观像（正位）
 ----
 <div>
-<%for(var i=0;i<user_list.block_183.excel_content_list.item_500.value.files.length;i++){%>
+    <%for(var i=0;i<user_list.block_183.excel_content_list.item_500.value.files.length;i++){%>
     <img src="<%=user_list.block_183.excel_content_list.item_500.value.files[i].file_url%>" style="display: block;float: left;width:40%;margin: 2%"/>
-<%}%>
+    <%}%>
 </div>
+
+[slide]
+## 外观像（足底）
+----
+<div>
+    <%for(var j=0;j<user_list.block_183.excel_content_list.item_501.value.files.length;j++){%>
+    <img src="<%=user_list.block_183.excel_content_list.item_501.value.files[j].file_url%>" style="display: block;float: left;width:40%;margin: 2%"/>
+    <%}%>
+</div>
+
+[slide]
+## 外观像（患处）
+----
+<div>
+    <%for(var k=0;k<user_list.block_183.excel_content_list.item_502.value.files.length;k++){%>
+    <img src="<%=user_list.block_183.excel_content_list.item_502.value.files[k].file_url%>" style="display: block;float: left;width:40%;margin: 2%"/>
+    <%}%>
+</div>
+
+[slide]
+## X线（外院）
+----
+<div>
+    <%for(var l=0;l<user_list.block_183.excel_content_list.item_503.value.files.length;l++){%>
+    <img src="<%=user_list.block_183.excel_content_list.item_503.value.files[l].file_url%>" style="display: block;float: left;width:40%;margin: 2%"/>
+    <%}%>
+</div>
+
+[slide]
+## X线（我院）
+----
+<div>
+    <%for(var m=0;m<user_list.block_183.excel_content_list.item_504.value.files.length;m++){%>
+    <img src="<%=user_list.block_183.excel_content_list.item_504.value.files[m].file_url%>" style="display: block;float: left;width:40%;margin: 2%"/>
+    <%}%>
+</div>
+
+[slide]
+## CT（正位）
+----
+<div>
+    <%for(var n=0;n<user_list.block_183.excel_content_list.item_505.value.files.length;n++){%>
+    <img src="<%=user_list.block_183.excel_content_list.item_505.value.files[n].file_url%>" style="display: block;float: left;width:40%;margin: 2%"/>
+    <%}%>
+</div>
+
+[slide]
+## CT(侧位）
+----
+<div>
+    <%for(var o=0;o<user_list.block_183.excel_content_list.item_506.value.files.length;o++){%>
+    <img src="<%=user_list.block_183.excel_content_list.item_506.value.files[o].file_url%>" style="display: block;float: left;width:40%;margin: 2%"/>
+    <%}%>
+</div>
+
+[slide]
+## CT（底部）
+----
+<div>
+    <%for(var p=0;p<user_list.block_183.excel_content_list.item_507.value.files.length;p++){%>
+    <img src="<%=user_list.block_183.excel_content_list.item_507.value.files[n].file_url%>" style="display: block;float: left;width:40%;margin: 2%"/>
+    <%}%>
+</div>
+[slide]
+
+## CT（彩色）
+----
+<div>
+    <%for(var q=0;q<user_list.block_183.excel_content_list.item_508.value.files.length;q++){%>
+    <img src="<%=user_list.block_183.excel_content_list.item_508.value.files[q].file_url%>" style="display: block;float: left;width:40%;margin: 2%"/>
+    <%}%>
+</div>
+
+[slide]
+## 诊断
+----
+* 诊断：<%=user_list.block_183.excel_content_list.item_509.value.value%>
+* 诊断依据：<%=user_list.block_183.excel_content_list.item_510.value.value%>
+
+[slide]
+## 手术方案
+----
+<%=user_list.block_183.excel_content_list.item_511.value.value%>
+
+[slide]
+## END
+
