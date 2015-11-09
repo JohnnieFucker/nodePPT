@@ -16,4 +16,4 @@ var _Schema = new Schema({
     user_list:Object
 },{versionKey: false});
 
-module.exports = model.mongoose.model("data_tables", _Schema);
+module.exports = mongoose.model("data_tables", _Schema);
