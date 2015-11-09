@@ -26,3 +26,10 @@ usemathjax: yes
 * 病情主诉：<%=user_list.block_183.excel_content_list.item_496.value.value%>
 * 现病史：<%=user_list.block_183.excel_content_list.item_497.value.value%>
 * 既往病史：<%=user_list.block_183.excel_content_list.item_498.value.value%>
+
+[slide]
+## 外观像
+----
+<%for(var i=0;i<user_list.block_183.excel_content_list.item_500.value.files.length;i++){%>
+![外观像](<%=user_list.block_183.excel_content_list.item_500.value.files[i].file_url%> "外观像")
+<%}%>
